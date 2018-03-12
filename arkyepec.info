@@ -1,0 +1,59 @@
+name = Arky EPEC
+description = Arky 2018
+screenshot = screenshot.png
+engine = phptemplate
+core = 7.x
+
+; Regions
+regions[content]        		= Contenido Principal
+regions[header]         	    = Header
+regions[preheader]         	    = PreHeader
+regions[postheader]         	= PostHeader
+regions[banner]        			= Banner
+regions[crumbs]        			= Crumbs
+regions[sidebar_first]          = Lateral 1
+regions[sidebar_second]         = Lateral 2
+regions[prefooter]         	    = PreFooter
+regions[footer]         	    = Footer
+regions[modal]        			= Modal
+regions[mobile]        			= Menu Mobile
+regions[away]        			= Fuera
+
+; Styles
+stylesheets[all][] = css/awstyles.css
+
+stylesheets[all][] = system.base.css
+stylesheets[all][] = system.menus.css
+stylesheets[all][] = system.messages.css
+stylesheets[all][] = system.theme.css
+stylesheets[all][] = ctools.css
+stylesheets[all][] = field.css
+stylesheets[all][] = node.css
+stylesheets[all][] = search.css
+stylesheets[all][] = user.css
+stylesheets[all][] = views.css
+stylesheets[all][] = ckeditor.css
+stylesheets[all][] = fitvids.css
+stylesheets[all][] = menu_attach_block.css
+stylesheets[all][] = date.css
+stylesheets[all][] = datepicker.1.7.css
+; Domains
+stylesheets[all][] = calendar_multiday.css
+stylesheets[all][] = picture_wysiwyg.css
+stylesheets[all][] = dhtml_menu.css
+stylesheets[all][] = panels.css
+stylesheets[all][] = typogrify.css
+stylesheets[all][] = locale.css
+; Lasts
+stylesheets[all][] = field_group.css
+stylesheets[all][] = honeypot.css
+stylesheets[all][] = webform.css
+
+
+; Scripts
+;scripts[] = js/vendor/modernizr.custom.js 
+
+scripts[] = js/bootstrap/bootstrap_dropdown.min.js
+scripts[] = js/awjs.js
+;scripts[] = js/foundation/foundation.js
+;scripts[] = js/foundation/foundation.reveal.js
